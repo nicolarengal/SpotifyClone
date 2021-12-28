@@ -1,0 +1,157 @@
+
+@media screen and (min-width: 768px) {
+
+    .hero-container {
+      padding-top: 0;
+      min-height: 64rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  
+    .hero-title {
+      font-size: 6.5rem;
+      line-height: 8rem;
+      letter-spacing: -0.4rem;
+    }
+  
+    .hero-button {
+      margin-bottom: 0;
+    }
+  
+    .terms {
+      position: absolute;
+      bottom: 1.2rem;
+    }
+  
+    .footer-nav {
+      width: 75rem;
+    }
+  
+    .top-links {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .bottom-links ul li {
+      font-size: 1.16rem;
+    }
+  
+    .country span,
+    .bottom-links span {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    
+    header {
+      background: black;
+      height: 8rem;
+    }
+  
+    .header-container {
+      max-width: 97rem;
+    }
+  
+    .header-logo img {
+      width: 13rem;
+    }
+  
+    .nav-desktop {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-mobile {
+      display: none;
+    }
+
+    .profile {
+      width: 4rem;
+      height: 4rem;
+    }
+  
+    /* Profile icone */
+    .profile svg {
+      width: 2rem;
+    }
+  
+
+    .hero-title {
+      font-size: 8rem;
+      margin-bottom: 0;
+    }
+  
+    .hero-content {
+      width: 70%;
+    }
+  
+    .hero-button {
+      position: relative;
+      top: 6rem;
+    }
+
+    
+    footer {
+      padding-top: 8rem;
+      padding-bottom: 5rem;
+    }
+  
+    .footer-nav {
+      width: 97rem;
+      position: relative;
+    }
+  
+    .logo-footer,
+    .top-links,
+    .social-icons {
+      vertical-align: top;
+    }
+  
+    .logo-footer {
+      display: inline-block;
+      width: 16.666666%;
+    }
+  
+    .logo-footer img {
+      width: 13rem;
+    }
+  
+    .top-links {
+      display: inline-flex;
+      width: 50%;
+    }
+  
+    .social-icons {
+      display: inline-block;
+      margin: 0 1.5rem 0 auto;
+      padding-top: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  
+    .social-icons ul li {
+      padding: 1.5rem;
+    }
+  }
+  
+ 
+  @media screen and (min-width: 1200px) {
+  
+    .header-container {
+      max-width: 117rem;
+    }
+  
+ 
+    .hero-button {
+      top: 5rem;
+    }
+
+  
+    .footer-nav {
+      width: 117rem;
+    }
+  }
